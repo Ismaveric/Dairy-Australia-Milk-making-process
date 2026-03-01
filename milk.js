@@ -75,7 +75,7 @@ closeSocialTab.addEventListener('click', () => {
 const textRead = document.querySelector('.read');
 const textStop = document.querySelector('.pause');
 const textResume = document.querySelector('.resume');
-const text = document.body.innerHTML
+const text = document.body.textContent
 
 
 function read(){
